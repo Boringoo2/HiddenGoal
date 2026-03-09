@@ -18,6 +18,7 @@
   let currentMode = "current";
   let nickname = null;
   let lastSuggestions = [];
+  let roundFinished = false;
 
   const LEADERBOARD_KEY = "hiddenGoalLeaderboard";
   const NICKNAME_KEY = "hiddenGoalNickname";
@@ -351,6 +352,7 @@
     resetFeedback();
     clearSuggestions();
     nextPlayerBtn.disabled = true;
+    roundFinished = false;
   }
 
   async function loadPlayers(mode) {
@@ -392,7 +394,7 @@
 
   function handleGuessSubmit(event) {
     event.preventDefault();
-    if (!currentPlayer) return;
+    if (!currentPlayer || roundFinished) return;
 
     const userGuess = guessInput.value;
     if (!userGuess.trim()) {
@@ -404,6 +406,7 @@
     const nameMatch = currentPlayer.normalizedName === normalizedGuess;
 
     if (nameMatch) {
+      roundFinished = true;
       currentStreak += 1;
       if (currentStreak > bestStreak) bestStreak = currentStreak;
       
