@@ -1,0 +1,3194 @@
+[
+  {
+    "name": "M. Salah",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Egypt",
+    "position": "RM",
+    "rating": 91
+  },
+  {
+    "name": "K. Mbappé",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "France",
+    "position": "ST",
+    "rating": 91
+  },
+  {
+    "name": "O. Dembélé",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "France",
+    "position": "ST",
+    "rating": 90
+  },
+  {
+    "name": "V. van Dijk",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Netherlands",
+    "position": "CB",
+    "rating": 90
+  },
+  {
+    "name": "E. Haaland",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Norway",
+    "position": "ST",
+    "rating": 90
+  },
+  {
+    "name": "J. Bellingham",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "England",
+    "position": "CAM",
+    "rating": 90
+  },
+  {
+    "name": "Rodri",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Spain",
+    "position": "CDM",
+    "rating": 90
+  },
+  {
+    "name": "Vitinha",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "Portugal",
+    "position": "CM",
+    "rating": 89
+  },
+  {
+    "name": "H. Kane",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "England",
+    "position": "ST",
+    "rating": 89
+  },
+  {
+    "name": "G. Donnarumma",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Italy",
+    "position": "GK",
+    "rating": 89
+  },
+  {
+    "name": "Alisson",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Brazil",
+    "position": "GK",
+    "rating": 89
+  },
+  {
+    "name": "Lamine Yamal",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "RM",
+    "rating": 89
+  },
+  {
+    "name": "Vini Jr.",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Brazil",
+    "position": "LW",
+    "rating": 89
+  },
+  {
+    "name": "J. Kimmich",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CDM",
+    "rating": 89
+  },
+  {
+    "name": "Raphinha",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Brazil",
+    "position": "LM",
+    "rating": 89
+  },
+  {
+    "name": "T. Courtois",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Belgium",
+    "position": "GK",
+    "rating": 89
+  },
+  {
+    "name": "A. Hakimi",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "Morocco",
+    "position": "RB",
+    "rating": 89
+  },
+  {
+    "name": "Pedri",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 89
+  },
+  {
+    "name": "F. Wirtz",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Germany",
+    "position": "CAM",
+    "rating": 89
+  },
+  {
+    "name": "F. Valverde",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Uruguay",
+    "position": "CM",
+    "rating": 89
+  },
+  {
+    "name": "L. Martínez",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Argentina",
+    "position": "ST",
+    "rating": 88
+  },
+  {
+    "name": "A. Isak",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Sweden",
+    "position": "ST",
+    "rating": 88
+  },
+  {
+    "name": "Gabriel",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "Brazil",
+    "position": "CB",
+    "rating": 88
+  },
+  {
+    "name": "R. Lewandowski",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Poland",
+    "position": "ST",
+    "rating": 88
+  },
+  {
+    "name": "J. Oblak",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Slovenia",
+    "position": "GK",
+    "rating": 88
+  },
+  {
+    "name": "J. Musiala",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CAM",
+    "rating": 88
+  },
+  {
+    "name": "B. Saka",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "RW",
+    "rating": 88
+  },
+  {
+    "name": "Marquinhos",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "Brazil",
+    "position": "CB",
+    "rating": 87
+  },
+  {
+    "name": "W. Saliba",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "France",
+    "position": "CB",
+    "rating": 87
+  },
+  {
+    "name": "N. Barella",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "CM",
+    "rating": 87
+  },
+  {
+    "name": "A. Mac Allister",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Argentina",
+    "position": "CM",
+    "rating": 87
+  },
+  {
+    "name": "D. Rice",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "CDM",
+    "rating": 87
+  },
+  {
+    "name": "M. Ødegaard",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "Norway",
+    "position": "CM",
+    "rating": 87
+  },
+  {
+    "name": "Y. Sommer",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Switzerland",
+    "position": "GK",
+    "rating": 87
+  },
+  {
+    "name": "V. Osimhen",
+    "club": "Galatasaray SK",
+    "league": "Süper Lig",
+    "nationality": "Nigeria",
+    "position": "ST",
+    "rating": 87
+  },
+  {
+    "name": "S. Guirassy",
+    "club": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "nationality": "Guinea",
+    "position": "ST",
+    "rating": 87
+  },
+  {
+    "name": "A. Bastoni",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "CB",
+    "rating": 87
+  },
+  {
+    "name": "J. Koundé",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "France",
+    "position": "RB",
+    "rating": 87
+  },
+  {
+    "name": "David Raya",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "Spain",
+    "position": "GK",
+    "rating": 87
+  },
+  {
+    "name": "J. Tah",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CB",
+    "rating": 87
+  },
+  {
+    "name": "M. Maignan",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nationality": "France",
+    "position": "GK",
+    "rating": 87
+  },
+  {
+    "name": "K. Kvaratskhelia",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "Georgia",
+    "position": "LW",
+    "rating": 87
+  },
+  {
+    "name": "K. De Bruyne",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Belgium",
+    "position": "CM",
+    "rating": 87
+  },
+  {
+    "name": "M. Caicedo",
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nationality": "Ecuador",
+    "position": "CDM",
+    "rating": 87
+  },
+  {
+    "name": "C. Palmer",
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "CAM",
+    "rating": 87
+  },
+  {
+    "name": "V. Gyökeres",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "Sweden",
+    "position": "ST",
+    "rating": 87
+  },
+  {
+    "name": "F. de Jong",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Netherlands",
+    "position": "CM",
+    "rating": 87
+  },
+  {
+    "name": "Bruno Fernandes",
+    "club": "Manchester United",
+    "league": "Premier League",
+    "nationality": "Portugal",
+    "position": "CAM",
+    "rating": 87
+  },
+  {
+    "name": "J. Alvarez",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Argentina",
+    "position": "ST",
+    "rating": 87
+  },
+  {
+    "name": "Bruno Guimarães",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "nationality": "Brazil",
+    "position": "CM",
+    "rating": 86
+  },
+  {
+    "name": "T. Reijnders",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Netherlands",
+    "position": "CM",
+    "rating": 86
+  },
+  {
+    "name": "H. Çalhanoğlu",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Türkiye",
+    "position": "CDM",
+    "rating": 86
+  },
+  {
+    "name": "Nuno Mendes",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "Portugal",
+    "position": "LB",
+    "rating": 86
+  },
+  {
+    "name": "P. Dybala",
+    "club": "Roma",
+    "league": "Serie A",
+    "nationality": "Argentina",
+    "position": "CAM",
+    "rating": 86
+  },
+  {
+    "name": "G. Kobel",
+    "club": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "nationality": "Switzerland",
+    "position": "GK",
+    "rating": 86
+  },
+  {
+    "name": "A. Rüdiger",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Germany",
+    "position": "CB",
+    "rating": 86
+  },
+  {
+    "name": "L. Messi",
+    "club": "Inter Miami",
+    "league": "Major League Soccer",
+    "nationality": "Argentina",
+    "position": "RW",
+    "rating": 86
+  },
+  {
+    "name": "T. Alexander-Arnold",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "England",
+    "position": "RB",
+    "rating": 86
+  },
+  {
+    "name": "S. Tonali",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "nationality": "Italy",
+    "position": "CDM",
+    "rating": 86
+  },
+  {
+    "name": "W. Pacho",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "Ecuador",
+    "position": "CB",
+    "rating": 86
+  },
+  {
+    "name": "M. Olise",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "France",
+    "position": "RM",
+    "rating": 86
+  },
+  {
+    "name": "Rúben Dias",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Portugal",
+    "position": "CB",
+    "rating": 86
+  },
+  {
+    "name": "Nico Williams",
+    "club": "Athletic Club",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "LM",
+    "rating": 86
+  },
+  {
+    "name": "M. ter Stegen",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Germany",
+    "position": "GK",
+    "rating": 86
+  },
+  {
+    "name": "I. Konaté",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "France",
+    "position": "CB",
+    "rating": 86
+  },
+  {
+    "name": "Iñigo Martínez",
+    "club": "Al Nassr",
+    "league": "Pro League",
+    "nationality": "Spain",
+    "position": "CB",
+    "rating": 85
+  },
+  {
+    "name": "F. Dimarco",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "LB",
+    "rating": 85
+  },
+  {
+    "name": "P. Gulácsi",
+    "club": "RB Leipzig",
+    "league": "Bundesliga",
+    "nationality": "Hungary",
+    "position": "GK",
+    "rating": 85
+  },
+  {
+    "name": "S. McTominay",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Scotland",
+    "position": "CM",
+    "rating": 85
+  },
+  {
+    "name": "A. Griezmann",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "France",
+    "position": "ST",
+    "rating": 85
+  },
+  {
+    "name": "L. Díaz",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "Colombia",
+    "position": "LM",
+    "rating": 85
+  },
+  {
+    "name": "Dani Olmo",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CAM",
+    "rating": 85
+  },
+  {
+    "name": "João Neves",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "Portugal",
+    "position": "CM",
+    "rating": 85
+  },
+  {
+    "name": "Cristiano Ronaldo",
+    "club": "Al Nassr",
+    "league": "Pro League",
+    "nationality": "Portugal",
+    "position": "ST",
+    "rating": 85
+  },
+  {
+    "name": "H. Son",
+    "club": "Los Angeles FC",
+    "league": "Major League Soccer",
+    "nationality": "Korea Republic",
+    "position": "LW",
+    "rating": 85
+  },
+  {
+    "name": "N. Schlotterbeck",
+    "club": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CB",
+    "rating": 85
+  },
+  {
+    "name": "Rodrygo",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Brazil",
+    "position": "RW",
+    "rating": 85
+  },
+  {
+    "name": "N. Kanté",
+    "club": "Al Ittihad",
+    "league": "Pro League",
+    "nationality": "France",
+    "position": "CDM",
+    "rating": 85
+  },
+  {
+    "name": "G. Xhaka",
+    "club": "Sunderland",
+    "league": "Premier League",
+    "nationality": "Switzerland",
+    "position": "CDM",
+    "rating": 85
+  },
+  {
+    "name": "D. Upamecano",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "France",
+    "position": "CB",
+    "rating": 85
+  },
+  {
+    "name": "R. Gravenberch",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Netherlands",
+    "position": "CDM",
+    "rating": 85
+  },
+  {
+    "name": "Unai Simón",
+    "club": "Athletic Club",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "GK",
+    "rating": 85
+  },
+  {
+    "name": "K. Benzema",
+    "club": "Al Ittihad",
+    "league": "Pro League",
+    "nationality": "France",
+    "position": "ST",
+    "rating": 85
+  },
+  {
+    "name": "De Gea",
+    "club": "Fiorentina",
+    "league": "Serie A",
+    "nationality": "Spain",
+    "position": "GK",
+    "rating": 85
+  },
+  {
+    "name": "Carvajal",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "RB",
+    "rating": 85
+  },
+  {
+    "name": "Bremer",
+    "club": "Juventus",
+    "league": "Serie A",
+    "nationality": "Brazil",
+    "position": "CB",
+    "rating": 85
+  },
+  {
+    "name": "E. Martínez",
+    "club": "Aston Villa",
+    "league": "Premier League",
+    "nationality": "Argentina",
+    "position": "GK",
+    "rating": 85
+  },
+  {
+    "name": "D. Doué",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "France",
+    "position": "RW",
+    "rating": 85
+  },
+  {
+    "name": "Ederson",
+    "club": "Fenerbahçe SK",
+    "league": "Süper Lig",
+    "nationality": "Brazil",
+    "position": "GK",
+    "rating": 85
+  },
+  {
+    "name": "Y. Tielemans",
+    "club": "Aston Villa",
+    "league": "Premier League",
+    "nationality": "Belgium",
+    "position": "CM",
+    "rating": 85
+  },
+  {
+    "name": "B. Mbeumo",
+    "club": "Manchester United",
+    "league": "Premier League",
+    "nationality": "Cameroon",
+    "position": "RW",
+    "rating": 85
+  },
+  {
+    "name": "P. Schick",
+    "club": "Bayer 04 Leverkusen",
+    "league": "Bundesliga",
+    "nationality": "Czechia",
+    "position": "ST",
+    "rating": 85
+  },
+  {
+    "name": "Fabián Ruiz",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 85
+  },
+  {
+    "name": "P. Foden",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "RW",
+    "rating": 85
+  },
+  {
+    "name": "M. Thuram",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "France",
+    "position": "ST",
+    "rating": 85
+  },
+  {
+    "name": "B. Barcola",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "France",
+    "position": "LW",
+    "rating": 84
+  },
+  {
+    "name": "S. Milinković-Savić",
+    "club": "Al Hilal",
+    "league": "Pro League",
+    "nationality": "Serbia",
+    "position": "CM",
+    "rating": 84
+  },
+  {
+    "name": "T. Hernández",
+    "club": "Al Hilal",
+    "league": "Pro League",
+    "nationality": "France",
+    "position": "LB",
+    "rating": 84
+  },
+  {
+    "name": "X. Simons",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League",
+    "nationality": "Netherlands",
+    "position": "CAM",
+    "rating": 84
+  },
+  {
+    "name": "Bernardo Silva",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Portugal",
+    "position": "CM",
+    "rating": 84
+  },
+  {
+    "name": "W. Szczęsny",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Poland",
+    "position": "GK",
+    "rating": 84
+  },
+  {
+    "name": "Marcos Llorente",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "RB",
+    "rating": 84
+  },
+  {
+    "name": "E. Fernández",
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nationality": "Argentina",
+    "position": "CM",
+    "rating": 84
+  },
+  {
+    "name": "R. De Paul",
+    "club": "Inter Miami",
+    "league": "Major League Soccer",
+    "nationality": "Argentina",
+    "position": "CM",
+    "rating": 84
+  },
+  {
+    "name": "Sancet",
+    "club": "Athletic Club",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CAM",
+    "rating": 84
+  },
+  {
+    "name": "O. Marmoush",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Egypt",
+    "position": "ST",
+    "rating": 84
+  },
+  {
+    "name": "M. Locatelli",
+    "club": "Juventus",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "CDM",
+    "rating": 84
+  },
+  {
+    "name": "J. Maddison",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "CM",
+    "rating": 84
+  },
+  {
+    "name": "D. Dumfries",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Netherlands",
+    "position": "RB",
+    "rating": 84
+  },
+  {
+    "name": "Grimaldo",
+    "club": "Bayer 04 Leverkusen",
+    "league": "Bundesliga",
+    "nationality": "Spain",
+    "position": "LM",
+    "rating": 84
+  },
+  {
+    "name": "João Cancelo",
+    "club": "Al Hilal",
+    "league": "Pro League",
+    "nationality": "Portugal",
+    "position": "RB",
+    "rating": 84
+  },
+  {
+    "name": "Marc Cucurella",
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nationality": "Spain",
+    "position": "LB",
+    "rating": 84
+  },
+  {
+    "name": "G. Mamardashvili",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Georgia",
+    "position": "GK",
+    "rating": 84
+  },
+  {
+    "name": "W. Orban",
+    "club": "RB Leipzig",
+    "league": "Bundesliga",
+    "nationality": "Hungary",
+    "position": "CB",
+    "rating": 84
+  },
+  {
+    "name": "O. Watkins",
+    "club": "Aston Villa",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "ST",
+    "rating": 84
+  },
+  {
+    "name": "Rafael Leão",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nationality": "Portugal",
+    "position": "LW",
+    "rating": 84
+  },
+  {
+    "name": "S. de Vrij",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Netherlands",
+    "position": "CB",
+    "rating": 84
+  },
+  {
+    "name": "C. Gakpo",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Netherlands",
+    "position": "LM",
+    "rating": 84
+  },
+  {
+    "name": "F. Acerbi",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "CB",
+    "rating": 84
+  },
+  {
+    "name": "A. Sørloth",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Norway",
+    "position": "ST",
+    "rating": 84
+  },
+  {
+    "name": "Vivian",
+    "club": "Athletic Club",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CB",
+    "rating": 84
+  },
+  {
+    "name": "J. Pickford",
+    "club": "Everton",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "GK",
+    "rating": 84
+  },
+  {
+    "name": "Diogo Costa",
+    "club": "FC Porto",
+    "league": "Primeira Liga",
+    "nationality": "Portugal",
+    "position": "GK",
+    "rating": 84
+  },
+  {
+    "name": "Álex Baena",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "LM",
+    "rating": 84
+  },
+  {
+    "name": "A. Tchouaméni",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "France",
+    "position": "CDM",
+    "rating": 84
+  },
+  {
+    "name": "R. Mahrez",
+    "club": "Al Ahli SFC",
+    "league": "Pro League",
+    "nationality": "Algeria",
+    "position": "RM",
+    "rating": 84
+  },
+  {
+    "name": "B. Pavard",
+    "club": "Olympique de Marseille",
+    "league": "Ligue 1",
+    "nationality": "France",
+    "position": "CB",
+    "rating": 84
+  },
+  {
+    "name": "J. Gvardiol",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Croatia",
+    "position": "LB",
+    "rating": 84
+  },
+  {
+    "name": "M. Diaby",
+    "club": "Al Ittihad",
+    "league": "Pro League",
+    "nationality": "France",
+    "position": "RM",
+    "rating": 84
+  },
+  {
+    "name": "M. Zaccagni",
+    "club": "Lazio",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "LM",
+    "rating": 84
+  },
+  {
+    "name": "M. Neuer",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "GK",
+    "rating": 84
+  },
+  {
+    "name": "E. Palacios",
+    "club": "Bayer 04 Leverkusen",
+    "league": "Bundesliga",
+    "nationality": "Argentina",
+    "position": "CM",
+    "rating": 84
+  },
+  {
+    "name": "A. Davies",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "Canada",
+    "position": "LB",
+    "rating": 84
+  },
+  {
+    "name": "Isco",
+    "club": "Real Betis Balompié",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CAM",
+    "rating": 84
+  },
+  {
+    "name": "R. Lukaku",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Belgium",
+    "position": "ST",
+    "rating": 84
+  },
+  {
+    "name": "Rúben Neves",
+    "club": "Al Hilal",
+    "league": "Pro League",
+    "nationality": "Portugal",
+    "position": "CDM",
+    "rating": 84
+  },
+  {
+    "name": "M. Carnesecchi",
+    "club": "Atalanta",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "GK",
+    "rating": 84
+  },
+  {
+    "name": "C. Pulisic",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nationality": "United States",
+    "position": "RW",
+    "rating": 84
+  },
+  {
+    "name": "Éder Militão",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Brazil",
+    "position": "CB",
+    "rating": 84
+  },
+  {
+    "name": "A. Lookman",
+    "club": "Atalanta",
+    "league": "Serie A",
+    "nationality": "Nigeria",
+    "position": "ST",
+    "rating": 84
+  },
+  {
+    "name": "N. Aké",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Netherlands",
+    "position": "CB",
+    "rating": 83
+  },
+  {
+    "name": "J. Brandt",
+    "club": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CAM",
+    "rating": 83
+  },
+  {
+    "name": "G. Di Lorenzo",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "RB",
+    "rating": 83
+  },
+  {
+    "name": "D. Kulusevski",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League",
+    "nationality": "Sweden",
+    "position": "CM",
+    "rating": 83
+  },
+  {
+    "name": "M. Sels",
+    "club": "Nottingham Forest",
+    "league": "Premier League",
+    "nationality": "Belgium",
+    "position": "GK",
+    "rating": 83
+  },
+  {
+    "name": "E. Camavinga",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "France",
+    "position": "CM",
+    "rating": 83
+  },
+  {
+    "name": "A. Rrahmani",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Kosovo",
+    "position": "CB",
+    "rating": 83
+  },
+  {
+    "name": "B. White",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "RB",
+    "rating": 83
+  },
+  {
+    "name": "J. Bowen",
+    "club": "West Ham United",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "RM",
+    "rating": 83
+  },
+  {
+    "name": "L. Modrić",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nationality": "Croatia",
+    "position": "CM",
+    "rating": 83
+  },
+  {
+    "name": "L. Openda",
+    "club": "Juventus",
+    "league": "Serie A",
+    "nationality": "Belgium",
+    "position": "ST",
+    "rating": 83
+  },
+  {
+    "name": "L. Trossard",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "Belgium",
+    "position": "LW",
+    "rating": 83
+  },
+  {
+    "name": "B. Kamara",
+    "club": "Aston Villa",
+    "league": "Premier League",
+    "nationality": "France",
+    "position": "CDM",
+    "rating": 83
+  },
+  {
+    "name": "Ayoze",
+    "club": "Villarreal CF",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "ST",
+    "rating": 83
+  },
+  {
+    "name": "N. Milenković",
+    "club": "Nottingham Forest",
+    "league": "Premier League",
+    "nationality": "Serbia",
+    "position": "CB",
+    "rating": 83
+  },
+  {
+    "name": "Pedro Gonçalves",
+    "club": "Sporting CP",
+    "league": "Primeira Liga",
+    "nationality": "Portugal",
+    "position": "CAM",
+    "rating": 83
+  },
+  {
+    "name": "M. Hjulmand",
+    "club": "Sporting CP",
+    "league": "Primeira Liga",
+    "nationality": "Denmark",
+    "position": "CDM",
+    "rating": 83
+  },
+  {
+    "name": "İ. Gündoğan",
+    "club": "Galatasaray SK",
+    "league": "Süper Lig",
+    "nationality": "Germany",
+    "position": "CM",
+    "rating": 83
+  },
+  {
+    "name": "A. Stiller",
+    "club": "VfB Stuttgart",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CDM",
+    "rating": 83
+  },
+  {
+    "name": "O. Baumann",
+    "club": "TSG 1899 Hoffenheim",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "GK",
+    "rating": 83
+  },
+  {
+    "name": "G. Mancini",
+    "club": "Roma",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "CB",
+    "rating": 83
+  },
+  {
+    "name": "Iago Aspas",
+    "club": "RC Celta",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "RW",
+    "rating": 83
+  },
+  {
+    "name": "Aleix García",
+    "club": "Bayer 04 Leverkusen",
+    "league": "Bundesliga",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 83
+  },
+  {
+    "name": "Joan García",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "GK",
+    "rating": 83
+  },
+  {
+    "name": "J. Frimpong",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Netherlands",
+    "position": "RB",
+    "rating": 83
+  },
+  {
+    "name": "Murillo",
+    "club": "Nottingham Forest",
+    "league": "Premier League",
+    "nationality": "Brazil",
+    "position": "CB",
+    "rating": 83
+  },
+  {
+    "name": "S. Mané",
+    "club": "Al Nassr",
+    "league": "Pro League",
+    "nationality": "Senegal",
+    "position": "LM",
+    "rating": 83
+  },
+  {
+    "name": "Zubimendi",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "Spain",
+    "position": "CDM",
+    "rating": 83
+  },
+  {
+    "name": "T. Partey",
+    "club": "Villarreal CF",
+    "league": "La Liga",
+    "nationality": "Ghana",
+    "position": "CDM",
+    "rating": 83
+  },
+  {
+    "name": "Iñaki Williams",
+    "club": "Athletic Club",
+    "league": "La Liga",
+    "nationality": "Ghana",
+    "position": "RM",
+    "rating": 83
+  },
+  {
+    "name": "S. Lobotka",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Slovakia",
+    "position": "CM",
+    "rating": 83
+  },
+  {
+    "name": "A. Dovbyk",
+    "club": "Roma",
+    "league": "Serie A",
+    "nationality": "Ukraine",
+    "position": "ST",
+    "rating": 83
+  },
+  {
+    "name": "J. Giménez",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Uruguay",
+    "position": "CB",
+    "rating": 83
+  },
+  {
+    "name": "M. Kovačić",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Croatia",
+    "position": "CM",
+    "rating": 83
+  },
+  {
+    "name": "M. Retegui",
+    "club": "Al Qadsiah FC",
+    "league": "Pro League",
+    "nationality": "Italy",
+    "position": "ST",
+    "rating": 83
+  },
+  {
+    "name": "L. Chevalier",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "France",
+    "position": "GK",
+    "rating": 83
+  },
+  {
+    "name": "M. Kean",
+    "club": "Fiorentina",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "ST",
+    "rating": 83
+  },
+  {
+    "name": "R. Le Normand",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CB",
+    "rating": 83
+  },
+  {
+    "name": "Ferran Torres",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "LW",
+    "rating": 83
+  },
+  {
+    "name": "P. Hincapié",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "Ecuador",
+    "position": "CB",
+    "rating": 83
+  },
+  {
+    "name": "K. Coman",
+    "club": "Al Nassr",
+    "league": "Pro League",
+    "nationality": "France",
+    "position": "LM",
+    "rating": 83
+  },
+  {
+    "name": "Ronaldo Cabrais",
+    "club": "Botafogo",
+    "league": "Série A",
+    "nationality": "Brazil",
+    "position": "CAM",
+    "rating": 83
+  },
+  {
+    "name": "D. Szoboszlai",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Hungary",
+    "position": "CAM",
+    "rating": 83
+  },
+  {
+    "name": "H. Ekitiké",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "France",
+    "position": "ST",
+    "rating": 83
+  },
+  {
+    "name": "Palhinha",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League",
+    "nationality": "Portugal",
+    "position": "CDM",
+    "rating": 83
+  },
+  {
+    "name": "Balde",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "LB",
+    "rating": 83
+  },
+  {
+    "name": "E. Eze",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "CAM",
+    "rating": 83
+  },
+  {
+    "name": "Matheus Cunha",
+    "club": "Manchester United",
+    "league": "Premier League",
+    "nationality": "Brazil",
+    "position": "CAM",
+    "rating": 83
+  },
+  {
+    "name": "D. Hancko",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Slovakia",
+    "position": "CB",
+    "rating": 83
+  },
+  {
+    "name": "A. Gordon",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "LW",
+    "rating": 83
+  },
+  {
+    "name": "Álex Remiro",
+    "club": "Real Sociedad",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "GK",
+    "rating": 83
+  },
+  {
+    "name": "R. Araujo",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Uruguay",
+    "position": "CB",
+    "rating": 83
+  },
+  {
+    "name": "Gavi",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 83
+  },
+  {
+    "name": "H. Mkhitaryan",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Armenia",
+    "position": "CM",
+    "rating": 83
+  },
+  {
+    "name": "L. Torreira",
+    "club": "Galatasaray SK",
+    "league": "Süper Lig",
+    "nationality": "Uruguay",
+    "position": "CDM",
+    "rating": 83
+  },
+  {
+    "name": "A. Rabiot",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nationality": "France",
+    "position": "CAM",
+    "rating": 83
+  },
+  {
+    "name": "Mikel Merino",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 83
+  },
+  {
+    "name": "F. Nmecha",
+    "club": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CDM",
+    "rating": 82
+  },
+  {
+    "name": "A. Buongiorno",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "Á. Di María",
+    "club": "Rosario Central",
+    "league": "Liga Profesional de Fútbol",
+    "nationality": "Argentina",
+    "position": "RW",
+    "rating": 82
+  },
+  {
+    "name": "L. Goretzka",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CM",
+    "rating": 82
+  },
+  {
+    "name": "Y. Wissa",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "nationality": "Congo DR",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "Y. En-Nesyri",
+    "club": "Fenerbahçe SK",
+    "league": "Süper Lig",
+    "nationality": "Morocco",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "J. David",
+    "club": "Juventus",
+    "league": "Serie A",
+    "nationality": "Canada",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "S. Botman",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "nationality": "Netherlands",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "K. Koulibaly",
+    "club": "Al Hilal",
+    "league": "Pro League",
+    "nationality": "Senegal",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "D. Zakaria",
+    "club": "AS Monaco",
+    "league": "Ligue 1",
+    "nationality": "Switzerland",
+    "position": "CDM",
+    "rating": 82
+  },
+  {
+    "name": "Ibañez",
+    "club": "Al Ahli SFC",
+    "league": "Pro League",
+    "nationality": "Brazil",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "J. Stones",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "D. Lukébakio",
+    "club": "SL Benfica",
+    "league": "Primeira Liga",
+    "nationality": "Belgium",
+    "position": "RM",
+    "rating": 82
+  },
+  {
+    "name": "S. Gnabry",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "LM",
+    "rating": 82
+  },
+  {
+    "name": "A. Romagnoli",
+    "club": "Lazio",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "V. Pavlidis",
+    "club": "SL Benfica",
+    "league": "Primeira Liga",
+    "nationality": "Greece",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "J. Mateta",
+    "club": "Crystal Palace",
+    "league": "Premier League",
+    "nationality": "France",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "S. Al Dawsari",
+    "club": "Al Hilal",
+    "league": "Pro League",
+    "nationality": "Saudi Arabia",
+    "position": "LM",
+    "rating": 82
+  },
+  {
+    "name": "M. Akanji",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Switzerland",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "F. Schär",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "nationality": "Switzerland",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "M. Greenwood",
+    "club": "Olympique de Marseille",
+    "league": "Ligue 1",
+    "nationality": "England",
+    "position": "RM",
+    "rating": 82
+  },
+  {
+    "name": "J. Timber",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "Netherlands",
+    "position": "RB",
+    "rating": 82
+  },
+  {
+    "name": "E. Konsa",
+    "club": "Aston Villa",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "D. Zapata",
+    "club": "Torino",
+    "league": "Serie A",
+    "nationality": "Colombia",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "Y. Bounou",
+    "club": "Al Hilal",
+    "league": "Pro League",
+    "nationality": "Morocco",
+    "position": "GK",
+    "rating": 82
+  },
+  {
+    "name": "Pau Cubarsí",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "D. Huijsen",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "D. Sánchez",
+    "club": "Galatasaray SK",
+    "league": "Süper Lig",
+    "nationality": "Colombia",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "K. Laimer",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "Austria",
+    "position": "RB",
+    "rating": 82
+  },
+  {
+    "name": "M. Mittelstädt",
+    "club": "VfB Stuttgart",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "LB",
+    "rating": 82
+  },
+  {
+    "name": "A. Robertson",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Scotland",
+    "position": "LB",
+    "rating": 82
+  },
+  {
+    "name": "M. van de Ven",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League",
+    "nationality": "Netherlands",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "A. Laporte",
+    "club": "Athletic Club",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "M. Ginter",
+    "club": "SC Freiburg",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "M. Götze",
+    "club": "Eintracht Frankfurt",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CM",
+    "rating": 82
+  },
+  {
+    "name": "Nacho Fernández",
+    "club": "Al Qadsiah FC",
+    "league": "Pro League",
+    "nationality": "Spain",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "C. Romero",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League",
+    "nationality": "Argentina",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "A. Budimir",
+    "club": "CA Osasuna",
+    "league": "La Liga",
+    "nationality": "Croatia",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "N. Otamendi",
+    "club": "SL Benfica",
+    "league": "Primeira Liga",
+    "nationality": "Argentina",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "M. Guéhi",
+    "club": "Crystal Palace",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "A. Robinson",
+    "club": "Fulham FC",
+    "league": "Premier League",
+    "nationality": "United States",
+    "position": "LB",
+    "rating": 82
+  },
+  {
+    "name": "M. de Ligt",
+    "club": "Manchester United",
+    "league": "Premier League",
+    "nationality": "Netherlands",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "C. Wood",
+    "club": "Nottingham Forest",
+    "league": "Premier League",
+    "nationality": "New Zealand",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "K. Havertz",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "Germany",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "Trincão",
+    "club": "Sporting CP",
+    "league": "Primeira Liga",
+    "nationality": "Portugal",
+    "position": "CAM",
+    "rating": 82
+  },
+  {
+    "name": "Parejo",
+    "club": "Villarreal CF",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 82
+  },
+  {
+    "name": "Malcom",
+    "club": "Al Hilal",
+    "league": "Pro League",
+    "nationality": "Brazil",
+    "position": "CAM",
+    "rating": 82
+  },
+  {
+    "name": "G. Vicario",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League",
+    "nationality": "Italy",
+    "position": "GK",
+    "rating": 82
+  },
+  {
+    "name": "L. Sané",
+    "club": "Galatasaray SK",
+    "league": "Süper Lig",
+    "nationality": "Germany",
+    "position": "RM",
+    "rating": 82
+  },
+  {
+    "name": "P. Højbjerg",
+    "club": "Olympique de Marseille",
+    "league": "Ligue 1",
+    "nationality": "Denmark",
+    "position": "CDM",
+    "rating": 82
+  },
+  {
+    "name": "I. Provedel",
+    "club": "Lazio",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "GK",
+    "rating": 82
+  },
+  {
+    "name": "Fabinho",
+    "club": "Al Ittihad",
+    "league": "Pro League",
+    "nationality": "Brazil",
+    "position": "CDM",
+    "rating": 82
+  },
+  {
+    "name": "R. Orsolini",
+    "club": "Bologna",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "RM",
+    "rating": 82
+  },
+  {
+    "name": "Brahim",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Morocco",
+    "position": "RM",
+    "rating": 82
+  },
+  {
+    "name": "R. Doan",
+    "club": "Eintracht Frankfurt",
+    "league": "Bundesliga",
+    "nationality": "Japan",
+    "position": "RM",
+    "rating": 82
+  },
+  {
+    "name": "W. Anton",
+    "club": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "Pablo Barrios",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 82
+  },
+  {
+    "name": "O. Kökçü",
+    "club": "Beşiktaş JK",
+    "league": "Süper Lig",
+    "nationality": "Türkiye",
+    "position": "CM",
+    "rating": 82
+  },
+  {
+    "name": "Berenguer",
+    "club": "Athletic Club",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "LM",
+    "rating": 82
+  },
+  {
+    "name": "Otávio",
+    "club": "Al Qadsiah FC",
+    "league": "Pro League",
+    "nationality": "Portugal",
+    "position": "CAM",
+    "rating": 82
+  },
+  {
+    "name": "Rafa",
+    "club": "Beşiktaş JK",
+    "league": "Süper Lig",
+    "nationality": "Portugal",
+    "position": "CAM",
+    "rating": 82
+  },
+  {
+    "name": "J. Burkardt",
+    "club": "Eintracht Frankfurt",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "G. Lo Celso",
+    "club": "Real Betis Balompié",
+    "league": "La Liga",
+    "nationality": "Argentina",
+    "position": "CAM",
+    "rating": 82
+  },
+  {
+    "name": "G. Rulli",
+    "club": "Olympique de Marseille",
+    "league": "Ligue 1",
+    "nationality": "Argentina",
+    "position": "GK",
+    "rating": 82
+  },
+  {
+    "name": "K. Casteels",
+    "club": "Al Qadsiah FC",
+    "league": "Pro League",
+    "nationality": "Belgium",
+    "position": "GK",
+    "rating": 82
+  },
+  {
+    "name": "Lucas Mantela",
+    "club": "Palmeiras",
+    "league": "Série A",
+    "nationality": "Brazil",
+    "position": "GK",
+    "rating": 82
+  },
+  {
+    "name": "R. Koch",
+    "club": "Eintracht Frankfurt",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "M. Guendouzi",
+    "club": "Lazio",
+    "league": "Serie A",
+    "nationality": "France",
+    "position": "CDM",
+    "rating": 82
+  },
+  {
+    "name": "D. Raum",
+    "club": "RB Leipzig",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "LB",
+    "rating": 82
+  },
+  {
+    "name": "A. Zambo Anguissa",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Cameroon",
+    "position": "CM",
+    "rating": 82
+  },
+  {
+    "name": "T. Kubo",
+    "club": "Real Sociedad",
+    "league": "La Liga",
+    "nationality": "Japan",
+    "position": "RM",
+    "rating": 82
+  },
+  {
+    "name": "D. Berardi",
+    "club": "Sassuolo",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "RW",
+    "rating": 82
+  },
+  {
+    "name": "M. Svilar",
+    "club": "Roma",
+    "league": "Serie A",
+    "nationality": "Serbia",
+    "position": "GK",
+    "rating": 82
+  },
+  {
+    "name": "K. Mitoma",
+    "club": "Brighton & Hove Albion",
+    "league": "Premier League",
+    "nationality": "Japan",
+    "position": "LM",
+    "rating": 82
+  },
+  {
+    "name": "Éderson",
+    "club": "Atalanta",
+    "league": "Serie A",
+    "nationality": "Brazil",
+    "position": "CM",
+    "rating": 82
+  },
+  {
+    "name": "M. Gibbs-White",
+    "club": "Nottingham Forest",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "CAM",
+    "rating": 82
+  },
+  {
+    "name": "Savinho",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Brazil",
+    "position": "RW",
+    "rating": 82
+  },
+  {
+    "name": "C. De Ketelaere",
+    "club": "Atalanta",
+    "league": "Serie A",
+    "nationality": "Belgium",
+    "position": "CAM",
+    "rating": 82
+  },
+  {
+    "name": "Kim Min Jae",
+    "club": "FC Bayern München",
+    "league": "Bundesliga",
+    "nationality": "Korea Republic",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "M. Kerkez",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Hungary",
+    "position": "LB",
+    "rating": 82
+  },
+  {
+    "name": "D. Vlahović",
+    "club": "Juventus",
+    "league": "Serie A",
+    "nationality": "Serbia",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "A. Meret",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "GK",
+    "rating": 82
+  },
+  {
+    "name": "M. Tillman",
+    "club": "Bayer 04 Leverkusen",
+    "league": "Bundesliga",
+    "nationality": "United States",
+    "position": "CAM",
+    "rating": 82
+  },
+  {
+    "name": "M. Rogers",
+    "club": "Aston Villa",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "CAM",
+    "rating": 82
+  },
+  {
+    "name": "Joelinton",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "nationality": "Brazil",
+    "position": "CM",
+    "rating": 82
+  },
+  {
+    "name": "Pedro Porro",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League",
+    "nationality": "Spain",
+    "position": "RB",
+    "rating": 82
+  },
+  {
+    "name": "D. Alaba",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Austria",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "E. Can",
+    "club": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CB",
+    "rating": 82
+  },
+  {
+    "name": "Oyarzabal",
+    "club": "Real Sociedad",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "ST",
+    "rating": 82
+  },
+  {
+    "name": "F. Chiesa",
+    "club": "Liverpool",
+    "league": "Premier League",
+    "nationality": "Italy",
+    "position": "RM",
+    "rating": 81
+  },
+  {
+    "name": "F. Mendy",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "France",
+    "position": "LB",
+    "rating": 81
+  },
+  {
+    "name": "G. Simeone",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Argentina",
+    "position": "RM",
+    "rating": 81
+  },
+  {
+    "name": "F. Tomori",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nationality": "England",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "Johnny Cardoso",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "United States",
+    "position": "CDM",
+    "rating": 81
+  },
+  {
+    "name": "W. Falcone",
+    "club": "Lecce",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "GK",
+    "rating": 81
+  },
+  {
+    "name": "M. Icardi",
+    "club": "Galatasaray SK",
+    "league": "Süper Lig",
+    "nationality": "Argentina",
+    "position": "ST",
+    "rating": 81
+  },
+  {
+    "name": "R. James",
+    "club": "Chelsea",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "RB",
+    "rating": 81
+  },
+  {
+    "name": "F. Kostić",
+    "club": "Juventus",
+    "league": "Serie A",
+    "nationality": "Serbia",
+    "position": "LM",
+    "rating": 81
+  },
+  {
+    "name": "J. McGinn",
+    "club": "Aston Villa",
+    "league": "Premier League",
+    "nationality": "Scotland",
+    "position": "LM",
+    "rating": 81
+  },
+  {
+    "name": "L. Hernández",
+    "club": "Paris Saint-Germain",
+    "league": "Ligue 1",
+    "nationality": "France",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "R. Kolo Muani",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League",
+    "nationality": "France",
+    "position": "ST",
+    "rating": 81
+  },
+  {
+    "name": "C. Gallagher",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "England",
+    "position": "CM",
+    "rating": 81
+  },
+  {
+    "name": "Carlos Augusto",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Brazil",
+    "position": "LB",
+    "rating": 81
+  },
+  {
+    "name": "T. Koopmeiners",
+    "club": "Juventus",
+    "league": "Serie A",
+    "nationality": "Netherlands",
+    "position": "CAM",
+    "rating": 81
+  },
+  {
+    "name": "Danilo Pereira",
+    "club": "Al Ittihad",
+    "league": "Pro League",
+    "nationality": "Portugal",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "P. Aubameyang",
+    "club": "Olympique de Marseille",
+    "league": "Ligue 1",
+    "nationality": "Gabon",
+    "position": "ST",
+    "rating": 81
+  },
+  {
+    "name": "D. Muñoz",
+    "club": "Crystal Palace",
+    "league": "Premier League",
+    "nationality": "Colombia",
+    "position": "RB",
+    "rating": 81
+  },
+  {
+    "name": "N. Süle",
+    "club": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "Morata",
+    "club": "Como",
+    "league": "Serie A",
+    "nationality": "Spain",
+    "position": "ST",
+    "rating": 81
+  },
+  {
+    "name": "E. Tapsoba",
+    "club": "Bayer 04 Leverkusen",
+    "league": "Bundesliga",
+    "nationality": "Burkina Faso",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "Raíllo",
+    "club": "RCD Mallorca",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "C. Baleba",
+    "club": "Brighton & Hove Albion",
+    "league": "Premier League",
+    "nationality": "Cameroon",
+    "position": "CDM",
+    "rating": 81
+  },
+  {
+    "name": "Gonçalo Inácio",
+    "club": "Sporting CP",
+    "league": "Primeira Liga",
+    "nationality": "Portugal",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "T. Kleindienst",
+    "club": "Borussia Mönchengladbach",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "ST",
+    "rating": 81
+  },
+  {
+    "name": "L. Hrádecký",
+    "club": "AS Monaco",
+    "league": "Ligue 1",
+    "nationality": "Finland",
+    "position": "GK",
+    "rating": 81
+  },
+  {
+    "name": "A. Lunin",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Ukraine",
+    "position": "GK",
+    "rating": 81
+  },
+  {
+    "name": "S. Banza",
+    "club": "Sporting Clube de Braga",
+    "league": "Primeira Liga",
+    "nationality": "Congo DR",
+    "position": "ST",
+    "rating": 81
+  },
+  {
+    "name": "R. Cherki",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "France",
+    "position": "RW",
+    "rating": 81
+  },
+  {
+    "name": "M. Škriniar",
+    "club": "Fenerbahçe SK",
+    "league": "Süper Lig",
+    "nationality": "Slovakia",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "Galeno",
+    "club": "Al Ahli SFC",
+    "league": "Pro League",
+    "nationality": "Brazil",
+    "position": "LM",
+    "rating": 81
+  },
+  {
+    "name": "Anderson Talisca",
+    "club": "Fenerbahçe SK",
+    "league": "Süper Lig",
+    "nationality": "Brazil",
+    "position": "CAM",
+    "rating": 81
+  },
+  {
+    "name": "David Neres",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Brazil",
+    "position": "LW",
+    "rating": 81
+  },
+  {
+    "name": "M. Politano",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "RW",
+    "rating": 81
+  },
+  {
+    "name": "Y. Carrasco",
+    "club": "Al Shabab",
+    "league": "Pro League",
+    "nationality": "Belgium",
+    "position": "LW",
+    "rating": 81
+  },
+  {
+    "name": "C. Nkunku",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nationality": "France",
+    "position": "CAM",
+    "rating": 81
+  },
+  {
+    "name": "Gayà",
+    "club": "Valencia CF",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "LB",
+    "rating": 81
+  },
+  {
+    "name": "A. Elanga",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "nationality": "Sweden",
+    "position": "RW",
+    "rating": 81
+  },
+  {
+    "name": "K. Trapp",
+    "club": "Paris FC",
+    "league": "Ligue 1",
+    "nationality": "Germany",
+    "position": "GK",
+    "rating": 81
+  },
+  {
+    "name": "E. Džeko",
+    "club": "Fiorentina",
+    "league": "Serie A",
+    "nationality": "Bosnia and Herzegovina",
+    "position": "ST",
+    "rating": 81
+  },
+  {
+    "name": "L. Martínez",
+    "club": "Manchester United",
+    "league": "Premier League",
+    "nationality": "Argentina",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "N. Amiri",
+    "club": "1. FSV Mainz 05",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CM",
+    "rating": 81
+  },
+  {
+    "name": "V. Boniface",
+    "club": "SV Werder Bremen",
+    "league": "Bundesliga",
+    "nationality": "Nigeria",
+    "position": "ST",
+    "rating": 81
+  },
+  {
+    "name": "Oswaldinato",
+    "club": "Flamengo",
+    "league": "Série A",
+    "nationality": "Brazil",
+    "position": "ST",
+    "rating": 81
+  },
+  {
+    "name": "I. Toney",
+    "club": "Al Ahli SFC",
+    "league": "Pro League",
+    "nationality": "England",
+    "position": "ST",
+    "rating": 81
+  },
+  {
+    "name": "E. Ndicka",
+    "club": "Roma",
+    "league": "Serie A",
+    "nationality": "Côte d'Ivoire",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "M. Simakan",
+    "club": "Al Nassr",
+    "league": "Pro League",
+    "nationality": "France",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "L. Balerdi",
+    "club": "Olympique de Marseille",
+    "league": "Ligue 1",
+    "nationality": "Argentina",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "Y. Fofana",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nationality": "France",
+    "position": "CDM",
+    "rating": 81
+  },
+  {
+    "name": "Ricardo Horta",
+    "club": "Sporting Clube de Braga",
+    "league": "Primeira Liga",
+    "nationality": "Portugal",
+    "position": "CAM",
+    "rating": 81
+  },
+  {
+    "name": "Rui Silva",
+    "club": "Sporting CP",
+    "league": "Primeira Liga",
+    "nationality": "Portugal",
+    "position": "GK",
+    "rating": 81
+  },
+  {
+    "name": "R. Freuler",
+    "club": "Bologna",
+    "league": "Serie A",
+    "nationality": "Switzerland",
+    "position": "CDM",
+    "rating": 81
+  },
+  {
+    "name": "R. Andrich",
+    "club": "Bayer 04 Leverkusen",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "CDM",
+    "rating": 81
+  },
+  {
+    "name": "D. Frattesi",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "CM",
+    "rating": 81
+  },
+  {
+    "name": "M. de Roon",
+    "club": "Atalanta",
+    "league": "Serie A",
+    "nationality": "Netherlands",
+    "position": "CM",
+    "rating": 81
+  },
+  {
+    "name": "Brais Méndez",
+    "club": "Real Sociedad",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 81
+  },
+  {
+    "name": "N. Pope",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "GK",
+    "rating": 81
+  },
+  {
+    "name": "Lucas Perri",
+    "club": "Leeds United",
+    "league": "Premier League",
+    "nationality": "Brazil",
+    "position": "GK",
+    "rating": 81
+  },
+  {
+    "name": "David Soria",
+    "club": "Getafe CF",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "GK",
+    "rating": 81
+  },
+  {
+    "name": "Rosival Dourado",
+    "club": "Corinthians",
+    "league": "Série A",
+    "nationality": "Brazil",
+    "position": "CDM",
+    "rating": 81
+  },
+  {
+    "name": "M. Darmian",
+    "club": "Inter",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "RB",
+    "rating": 81
+  },
+  {
+    "name": "I. Perišić",
+    "club": "PSV",
+    "league": "Eredivisie",
+    "nationality": "Croatia",
+    "position": "RW",
+    "rating": 81
+  },
+  {
+    "name": "K. Thuram",
+    "club": "Juventus",
+    "league": "Serie A",
+    "nationality": "France",
+    "position": "CM",
+    "rating": 81
+  },
+  {
+    "name": "N. Aguerd",
+    "club": "Olympique de Marseille",
+    "league": "Ligue 1",
+    "nationality": "Morocco",
+    "position": "CB",
+    "rating": 81
+  },
+  {
+    "name": "Miguel Gutiérrez",
+    "club": "Napoli",
+    "league": "Serie A",
+    "nationality": "Spain",
+    "position": "LB",
+    "rating": 81
+  },
+  {
+    "name": "A. Nübel",
+    "club": "VfB Stuttgart",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "GK",
+    "rating": 81
+  },
+  {
+    "name": "M. Di Gregorio",
+    "club": "Juventus",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "GK",
+    "rating": 81
+  },
+  {
+    "name": "A. Kramarić",
+    "club": "TSG 1899 Hoffenheim",
+    "league": "Bundesliga",
+    "nationality": "Croatia",
+    "position": "CAM",
+    "rating": 81
+  },
+  {
+    "name": "Koke",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 81
+  },
+  {
+    "name": "C. Tolisso",
+    "club": "Olympique Lyonnais",
+    "league": "Ligue 1",
+    "nationality": "France",
+    "position": "CM",
+    "rating": 81
+  },
+  {
+    "name": "M. Brozović",
+    "club": "Al Nassr",
+    "league": "Pro League",
+    "nationality": "Croatia",
+    "position": "CDM",
+    "rating": 81
+  },
+  {
+    "name": "Y. Herrera",
+    "club": "Real Sociedad",
+    "league": "La Liga",
+    "nationality": "Venezuela",
+    "position": "CM",
+    "rating": 81
+  },
+  {
+    "name": "Dani Ceballos",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 81
+  },
+  {
+    "name": "Welington Dano",
+    "club": "Atlético Mineiro",
+    "league": "Série A",
+    "nationality": "Brazil",
+    "position": "LB",
+    "rating": 81
+  },
+  {
+    "name": "Antony",
+    "club": "Real Betis Balompié",
+    "league": "La Liga",
+    "nationality": "Brazil",
+    "position": "RW",
+    "rating": 81
+  },
+  {
+    "name": "J. Murphy",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "RW",
+    "rating": 81
+  },
+  {
+    "name": "Gerard Moreno",
+    "club": "Villarreal CF",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "ST",
+    "rating": 81
+  },
+  {
+    "name": "A. Güler",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Türkiye",
+    "position": "RM",
+    "rating": 81
+  },
+  {
+    "name": "Nailton Suzuki",
+    "club": "Atlético Mineiro",
+    "league": "Série A",
+    "nationality": "Brazil",
+    "position": "CAM",
+    "rating": 81
+  },
+  {
+    "name": "K. Adeyemi",
+    "club": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "nationality": "Germany",
+    "position": "RM",
+    "rating": 81
+  },
+  {
+    "name": "Isi",
+    "club": "Rayo Vallecano",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CAM",
+    "rating": 81
+  },
+  {
+    "name": "Sergi Darder",
+    "club": "RCD Mallorca",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "LM",
+    "rating": 81
+  },
+  {
+    "name": "D. Henderson",
+    "club": "Crystal Palace",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "GK",
+    "rating": 81
+  },
+  {
+    "name": "R. Aït-Nouri",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Algeria",
+    "position": "LB",
+    "rating": 81
+  },
+  {
+    "name": "Gabriel Martinelli",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "Brazil",
+    "position": "LW",
+    "rating": 81
+  },
+  {
+    "name": "J. Tarkowski",
+    "club": "Everton",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "CB",
+    "rating": 80
+  },
+  {
+    "name": "Fermín",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CAM",
+    "rating": 80
+  },
+  {
+    "name": "Fred",
+    "club": "Fenerbahçe SK",
+    "league": "Süper Lig",
+    "nationality": "Brazil",
+    "position": "CM",
+    "rating": 80
+  },
+  {
+    "name": "M. Sabitzer",
+    "club": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "nationality": "Austria",
+    "position": "CDM",
+    "rating": 80
+  },
+  {
+    "name": "Douglas Luiz",
+    "club": "Nottingham Forest",
+    "league": "Premier League",
+    "nationality": "Brazil",
+    "position": "CM",
+    "rating": 80
+  },
+  {
+    "name": "C. Tzolis",
+    "club": "Club Brugge KV",
+    "league": "Pro League",
+    "nationality": "Greece",
+    "position": "LM",
+    "rating": 80
+  },
+  {
+    "name": "N. Madueke",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "RW",
+    "rating": 80
+  },
+  {
+    "name": "A. El Kaabi",
+    "club": "Olympiacos FC",
+    "league": "Super League",
+    "nationality": "Morocco",
+    "position": "ST",
+    "rating": 80
+  },
+  {
+    "name": "A. Semenyo",
+    "club": "AFC Bournemouth",
+    "league": "Premier League",
+    "nationality": "Ghana",
+    "position": "RM",
+    "rating": 80
+  },
+  {
+    "name": "E. Anderson",
+    "club": "Nottingham Forest",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "CDM",
+    "rating": 80
+  },
+  {
+    "name": "R. Gosens",
+    "club": "Fiorentina",
+    "league": "Serie A",
+    "nationality": "Germany",
+    "position": "LB",
+    "rating": 80
+  },
+  {
+    "name": "Gabriel Sara",
+    "club": "Galatasaray SK",
+    "league": "Süper Lig",
+    "nationality": "Brazil",
+    "position": "CM",
+    "rating": 80
+  },
+  {
+    "name": "Lucas Paquetá",
+    "club": "West Ham United",
+    "league": "Premier League",
+    "nationality": "Brazil",
+    "position": "CM",
+    "rating": 80
+  },
+  {
+    "name": "K. Trippier",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "RB",
+    "rating": 80
+  },
+  {
+    "name": "G. Sudakov",
+    "club": "SL Benfica",
+    "league": "Primeira Liga",
+    "nationality": "Ukraine",
+    "position": "CAM",
+    "rating": 80
+  },
+  {
+    "name": "B. André",
+    "club": "Lille OSC",
+    "league": "Ligue 1",
+    "nationality": "France",
+    "position": "CDM",
+    "rating": 80
+  },
+  {
+    "name": "F. Honorat",
+    "club": "Borussia Mönchengladbach",
+    "league": "Bundesliga",
+    "nationality": "France",
+    "position": "RM",
+    "rating": 80
+  },
+  {
+    "name": "U. Çakır",
+    "club": "Galatasaray SK",
+    "league": "Süper Lig",
+    "nationality": "Türkiye",
+    "position": "GK",
+    "rating": 80
+  },
+  {
+    "name": "M. Kudus",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League",
+    "nationality": "Ghana",
+    "position": "RW",
+    "rating": 80
+  },
+  {
+    "name": "H. Vanaken",
+    "club": "Club Brugge KV",
+    "league": "Pro League",
+    "nationality": "Belgium",
+    "position": "CAM",
+    "rating": 80
+  },
+  {
+    "name": "Javi Galán",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "LB",
+    "rating": 80
+  },
+  {
+    "name": "B. Leno",
+    "club": "Fulham FC",
+    "league": "Premier League",
+    "nationality": "Germany",
+    "position": "GK",
+    "rating": 80
+  },
+  {
+    "name": "Álvaro Carreras",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "LB",
+    "rating": 80
+  },
+  {
+    "name": "Đ. Petrović",
+    "club": "AFC Bournemouth",
+    "league": "Premier League",
+    "nationality": "Serbia",
+    "position": "GK",
+    "rating": 80
+  },
+  {
+    "name": "J. Doku",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "nationality": "Belgium",
+    "position": "LW",
+    "rating": 80
+  },
+  {
+    "name": "O. Aina",
+    "club": "Nottingham Forest",
+    "league": "Premier League",
+    "nationality": "Nigeria",
+    "position": "RB",
+    "rating": 80
+  },
+  {
+    "name": "V. Grifo",
+    "club": "SC Freiburg",
+    "league": "Bundesliga",
+    "nationality": "Italy",
+    "position": "LM",
+    "rating": 80
+  },
+  {
+    "name": "Igor Paixão",
+    "club": "Olympique de Marseille",
+    "league": "Ligue 1",
+    "nationality": "Brazil",
+    "position": "LM",
+    "rating": 80
+  }
+]

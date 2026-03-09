@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HiddenGoal is a football guessing game where players identify footballers using clues such as club, nationality, and position." />
+    <title>HiddenGoal - Juego</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="hg-body">
+    <div class="hg-app">
+      <header class="hg-header">
+        <a href="index.html" class="hg-back-link">&larr; Inicio</a>
+        <h1 class="hg-title">HiddenGoal</h1>
+        <p id="mode-label" class="hg-subtitle"></p>
+      </header>
+
+      <main class="hg-main game-main">
+        <aside class="ad-container left-ad">Ad placeholder</aside>
+
+        <section class="hg-card" id="game-card">
+          <div class="hg-card-top">
+            <h2 class="hg-section-title">Adivina el jugador</h2>
+            <div class="hg-stats-panel" id="streak-display"></div>
+          </div>
+
+          <div class="hg-difficulty">
+            <label for="difficulty-select">Dificultad</label>
+            <select id="difficulty-select" class="hg-select">
+              <option value="easy">Fácil</option>
+              <option value="medium">Media</option>
+              <option value="hard">Difícil</option>
+              <option value="legend">Legendaria</option>
+            </select>
+          </div>
+
+          <div id="clues" class="hg-clues"></div>
+
+          <form id="guess-form" class="hg-form">
+            <label for="guess-input" class="hg-label">
+              Escribe el nombre del jugador
+            </label>
+            <input
+              type="text"
+              id="guess-input"
+              class="hg-input"
+              placeholder="Ej: Pedri"
+              autocomplete="off"
+            />
+            <div id="suggestions" class="hg-suggestions" aria-live="polite"></div>
+            <button type="submit" class="hg-btn primary hg-btn-full">
+              Enviar respuesta
+            </button>
+          </form>
+
+          <div id="feedback" class="hg-feedback" aria-live="polite"></div>
+
+          <div class="hg-actions">
+            <button id="next-player-btn" class="hg-btn secondary" disabled>
+              Siguiente jugador
+            </button>
+          </div>
+          
+          <div class="ad-container mobile-ad">Ad placeholder</div>
+        </section>
+
+        <aside class="ad-container right-ad">Ad placeholder</aside>
+      </main>
+
+      <footer class="hg-footer">
+        <span>HiddenGoal © 2025</span>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: flex-end;">
+            <a href="privacy.html" class="hg-link">Privacy</a> | 
+            <a href="cookies.html" class="hg-link">Cookies</a> | 
+            <a href="terms.html" class="hg-link">Terms</a> | 
+            <a href="about.html" class="hg-link">About</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/cookie-banner.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>
+

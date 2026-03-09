@@ -1,0 +1,121 @@
+import json
+import os
+
+OUTPUT = "data/players_legends.json"
+
+legends = [
+  {
+    "name": "Z. Zidane",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "France",
+    "position": "CAM",
+    "rating": 96
+  },
+  {
+    "name": "Ronaldinho",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Brazil",
+    "position": "LW",
+    "rating": 94
+  },
+  {
+    "name": "Ronaldo",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "nationality": "Brazil",
+    "position": "ST",
+    "rating": 94
+  },
+  {
+    "name": "T. Henry",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "nationality": "France",
+    "position": "ST",
+    "rating": 93
+  },
+  {
+    "name": "D. Beckham",
+    "club": "Manchester United",
+    "league": "Premier League",
+    "nationality": "England",
+    "position": "RM",
+    "rating": 92
+  },
+  {
+    "name": "A. Pirlo",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "CM",
+    "rating": 92
+  },
+  {
+    "name": "Kaká",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nationality": "Brazil",
+    "position": "CAM",
+    "rating": 92
+  },
+  {
+    "name": "Xavi",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 93
+  },
+  {
+    "name": "A. Iniesta",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Spain",
+    "position": "CM",
+    "rating": 94
+  },
+  {
+    "name": "Rivaldo",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "nationality": "Brazil",
+    "position": "CAM",
+    "rating": 92
+  },
+  {
+    "name": "A. Shevchenko",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "nationality": "Ukraine",
+    "position": "ST",
+    "rating": 91
+  },
+  {
+    "name": "F. Totti",
+    "club": "Roma",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "CAM",
+    "rating": 91
+  },
+  {
+    "name": "A. Del Piero",
+    "club": "Juventus",
+    "league": "Serie A",
+    "nationality": "Italy",
+    "position": "CF",
+    "rating": 90
+  }
+]
+
+def main():
+    os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8") as f:
+        json.dump(legends, f, indent=2, ensure_ascii=False)
+    print("Legends generated:", len(legends))
+    print("Output file:", OUTPUT)
+
+if __name__ == "__main__":
+    main()
