@@ -15,33 +15,46 @@
       </header>
 
       <main class="hg-main">
-        <section class="hg-card">
-          <h2 class="hg-section-title">Elige un modo</h2>
-          <div class="hg-buttons">
-            <a href="game.html?mode=current" class="hg-btn primary">
-              Jugadores actuales
+        <section class="hero">
+          <h1>HiddenGoal ⚽</h1>
+          <p>¿Puedes adivinar el jugador de fútbol?</p>
+          
+          <div class="mode-buttons">
+            <a href="game.html?mode=current" class="mode-btn primary">
+              <span>▶</span> Jugadores Actuales
             </a>
-            <a href="game.html?mode=legends" class="hg-btn secondary">
-              Leyendas
-            </a>
-          </div>
-
-          <div class="hg-extra-links">
-            <a href="leaderboard.html" class="hg-link">
-              Ver leaderboard
+            <a href="game.html?mode=legends" class="mode-btn legends">
+              <span>⭐</span> Jugar Leyendas
             </a>
           </div>
         </section>
 
-        <section class="hg-info">
-          <h3>Cómo se juega</h3>
-          <ol>
-            <li>Elige un modo: jugadores actuales o leyendas.</li>
-            <li>Mira las pistas: nacionalidad, club y posición.</li>
-            <li>Escribe el nombre del jugador y envía tu respuesta.</li>
-            <li>Acumula aciertos y pasa al siguiente jugador.</li>
-          </ol>
-        </section>
+        <div class="home-grid">
+          <section class="how-to-card">
+            <h3>Cómo se juega</h3>
+            <div class="instruction-step">
+              <div class="instruction-icon">📖</div>
+              <div class="instruction-text">Lee las pistas cuidadosamente (nacionalidad, liga, club).</div>
+            </div>
+            <div class="instruction-step">
+              <div class="instruction-icon">🤔</div>
+              <div class="instruction-text">Adivina el jugador de fútbol. Escribe su nombre.</div>
+            </div>
+            <div class="instruction-step">
+              <div class="instruction-icon">🔥</div>
+              <div class="instruction-text">Aumenta tu racha de aciertos y compite por los trofeos.</div>
+            </div>
+          </section>
+
+          <section class="leaderboard-preview">
+            <h3>Top Players</h3>
+            <div class="empty-leaderboard" id="leaderboard-container">
+              <div class="empty-icon">🏆</div>
+              <p>No players on the leaderboard yet</p>
+              <a href="game.html?mode=current" class="hg-btn primary hg-btn-full" style="text-decoration: none;">Start playing and become the first champion!</a>
+            </div>
+          </section>
+        </div>
       </main>
 
       <footer class="hg-footer">

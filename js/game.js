@@ -153,9 +153,8 @@
   function updateStreakDisplay() {
     if (!streakDisplay) return;
     streakDisplay.innerHTML = `
-      <div class="hg-stat"><span class="hg-stat-icon">🔥</span> <span class="hg-stat-label">Racha:</span> <span class="hg-stat-value">${currentStreak}</span></div>
-      <div class="hg-stat"><span class="hg-stat-icon">🏆</span> <span class="hg-stat-label">Mejor:</span> <span class="hg-stat-value">${bestStreak}</span></div>
-      <div class="hg-stat"><span class="hg-stat-icon">🥇</span> <span class="hg-stat-label">Trofeos:</span> <span class="hg-stat-value">${totalTrophies}</span></div>
+      <div class="streak-highlight" id="streak-counter">🔥 Racha: ${currentStreak}</div>
+      <div class="streak-other">🏆 Mejor: ${bestStreak} &nbsp;|&nbsp; 🥇 Trofeos: ${totalTrophies}</div>
     `;
   }
 
@@ -195,6 +194,32 @@
     saveLeaderboard(data);
   }
 
+  function getAge(birthdate) {
+    if (!birthdate) return null;
+    const today = new Date();
+    const birth = new Date(birthdate);
+    let age = today.getFullYear() - birth.getFullYear();
+    const m = today.getMonth() - birth.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+      age--;
+    }
+    return age;
+  }
+
+  function getBirthYear(birthdate) {
+    if (!birthdate) return null;
+    return new Date(birthdate).getFullYear();
+  }
+
+  function getPreviousClub(player) {
+    if (!player.previous_clubs || player.previous_clubs.length === 0) {
+      return null;
+    }
+    return player.previous_clubs[
+      Math.floor(Math.random() * player.previous_clubs.length)
+    ];
+  }
+
   function getAvailableClues(player) {
     const clues = [];
     if (player.nationality) clues.push({ key: "nationality", label: "Nacionalidad", value: player.nationality });
@@ -205,24 +230,39 @@
     if (player.previous_club) clues.push({ key: "previous_club", label: "Club previo", value: player.previous_club });
     if (player.era) clues.push({ key: "era", label: "Época", value: player.era });
     
+    if (currentMode === "current" && player.birthdate) {
+      const age = getAge(player.birthdate);
+      if (age !== null) {
+        clues.push({ key: "birthdate_age", label: "Edad", value: age + " años" });
+      }
+    } else if (currentMode === "legends" && player.birth_year) {
+      clues.push({ key: "birthdate_year", label: "Nacimiento", value: "Nacido en " + player.birth_year });
+    }
+
+    const prevClub = getPreviousClub(player);
+    if (prevClub) {
+      clues.push({ key: "previous_club_dynamic", label: "Club previo", value: "⬅️ Jugó en: " + prevClub });
+    }
+
     return clues.filter(clue => clue.value); // Ensure no empty values are pushed
   }
 
   function generateClues(player) {
-    const allClues = getAvailableClues(player);
-    const byKey = Object.fromEntries(allClues.map((c) => [c.key, c]));
-
-    const result = [];
-    if (currentDifficulty === "easy") {
-      ["nationality", "club", "league", "position"].forEach(k => { if (byKey[k]) result.push(byKey[k]); });
-    } else if (currentDifficulty === "medium") {
-      ["nationality", "club", "position"].forEach(k => { if (byKey[k]) result.push(byKey[k]); });
-    } else if (currentDifficulty === "hard") {
-      ["nationality", "position"].forEach(k => { if (byKey[k]) result.push(byKey[k]); });
-    } else if (currentDifficulty === "legend") {
-      if (byKey["nationality"]) result.push(byKey["nationality"]);
+    let allClues = getAvailableClues(player);
+    
+    // Shuffle the available clues
+    for (let i = allClues.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [allClues[i], allClues[j]] = [allClues[j], allClues[i]];
     }
-    return result;
+
+    let hintCount = 4;
+    if (currentDifficulty === "easy") hintCount = 4;
+    else if (currentDifficulty === "medium") hintCount = 3;
+    else if (currentDifficulty === "hard") hintCount = 2;
+    else if (currentDifficulty === "legend") hintCount = 2;
+
+    return allClues.slice(0, hintCount);
   }
 
   function renderClues(player) {
@@ -231,42 +271,31 @@
 
     const selectedClues = generateClues(player);
     selectedClues.forEach((clue) => {
-      const p = document.createElement("p");
-      p.className = "hg-clue";
+      const div = document.createElement("div");
+      div.className = "hint-card";
 
-      const labelSpan = document.createElement("span");
-      labelSpan.textContent = `${clue.label}:`;
+      const iconMap = {
+        nationality: "🌍",
+        club: "⚽",
+        famous_club: "⚽",
+        league: "🏆",
+        position: "🎯",
+        birthdate_age: "🎂",
+        birthdate_year: "🎂",
+        previous_club_dynamic: "⬅️",
+        era: "⏳"
+      };
 
-      const valueWrapper = document.createElement("span");
-      valueWrapper.className = "hg-clue-value";
+      const iconSpan = document.createElement("span");
+      iconSpan.className = "hint-icon";
+      iconSpan.textContent = iconMap[clue.key] || "⚽";
+      div.appendChild(iconSpan);
 
-      if (clue.key === "nationality") {
-        const img = document.createElement("img");
-        img.className = "hg-flag-img";
-        img.src = getFlagSrc(player.nationality);
-        img.alt = player.nationality;
-        valueWrapper.appendChild(img);
-        const textSpan = document.createElement("span");
-        textSpan.textContent = clue.value;
-        valueWrapper.appendChild(textSpan);
-      } else if (clue.key === "club" || clue.key === "famous_club") {
-        const img = document.createElement("img");
-        img.className = "hg-club-logo";
-        img.src = getClubLogoSrc(player.club || player.famous_club);
-        img.alt = player.club || player.famous_club;
-        valueWrapper.appendChild(img);
-        const textSpan = document.createElement("span");
-        textSpan.textContent = clue.value;
-        valueWrapper.appendChild(textSpan);
-      } else {
-        const textSpan = document.createElement("span");
-        textSpan.textContent = clue.value;
-        valueWrapper.appendChild(textSpan);
-      }
+      const textSpan = document.createElement("span");
+      textSpan.textContent = clue.value;
+      div.appendChild(textSpan);
 
-      p.appendChild(labelSpan);
-      p.appendChild(valueWrapper);
-      cluesContainer.appendChild(p);
+      cluesContainer.appendChild(div);
     });
   }
 
@@ -278,12 +307,12 @@
   }
 
   function resetFeedback() {
-    feedbackDiv.textContent = "";
+    feedbackDiv.innerHTML = "";
     feedbackDiv.className = "hg-feedback";
   }
 
-  function showFeedback(message, type) {
-    feedbackDiv.textContent = message;
+  function showFeedback(messageHTML, type) {
+    feedbackDiv.innerHTML = messageHTML;
     feedbackDiv.className = `hg-feedback ${type}`;
   }
 
@@ -308,7 +337,7 @@
 
     matches.sort((a, b) => (b.rating || 0) - (a.rating || 0));
 
-    lastSuggestions = matches.slice(0, 8);
+    lastSuggestions = matches.slice(0, 6);
 
     if (!lastSuggestions.length) {
       clearSuggestions();
@@ -351,6 +380,11 @@
     guessInput.focus();
     resetFeedback();
     clearSuggestions();
+    
+    const existingShare = document.getElementById("share-score-btn");
+    if (existingShare) existingShare.remove();
+    
+    nextPlayerBtn.style.display = "none";
     nextPlayerBtn.disabled = true;
     roundFinished = false;
   }
@@ -360,6 +394,9 @@
     if (mode === "legends") {
       file = "data/players_legends.json";
     }
+    
+    file += "?v=" + Date.now();
+    
     try {
       const res = await fetch(file);
       if (!res.ok) {
@@ -376,7 +413,7 @@
         difficultyPools.hard.push(p);
         difficultyPools.legend.push(p);
       });
-      console.log("Players loaded:", allPlayers.length);
+      console.log("Legends loaded:", allPlayers.length);
       console.log("Difficulty pools:", {
         easy: difficultyPools.easy.length,
         medium: difficultyPools.medium.length,
@@ -415,24 +452,87 @@
       
       saveStreaks();
       updateStreakDisplay();
+
+      const streakElem = document.getElementById("streak-counter");
+      if (streakElem) {
+        streakElem.classList.remove("streak-bump");
+        void streakElem.offsetWidth;
+        streakElem.classList.add("streak-bump");
+      }
+
       recordWin(earnedTrophies);
       
       showFeedback(
-        `¡Correcto! Era ${currentPlayer.name}. +${earnedTrophies} 🎗️`,
-        "success"
+        `<div class="correct-pop">✅ Correct!</div><div style="text-align:center; color:var(--hg-text-muted); margin-top:0.4rem;">+${earnedTrophies} 🏆</div>`,
+        ""
       );
       guessInput.disabled = true;
+      nextPlayerBtn.style.display = "";
+      nextPlayerBtn.textContent = "➡️ Siguiente " + (currentMode === "legends" ? "leyenda" : "jugador");
+      nextPlayerBtn.className = "hg-btn next-btn";
       nextPlayerBtn.disabled = false;
+      
+      addShareButton(currentStreak);
       clearSuggestions();
     } else {
+      roundFinished = true;
+      const finalStreak = currentStreak;
       currentStreak = 0;
       saveStreaks();
       updateStreakDisplay();
-      showFeedback("No es correcto, prueba otra vez.", "error");
+      showFeedback(
+        `<div class="wrong-message">❌ Wrong!</div><div class="correct-reveal">El jugador era: ${currentPlayer.name}</div>`,
+        ""
+      );
+      guessInput.disabled = true;
+      nextPlayerBtn.style.display = "";
+      nextPlayerBtn.textContent = "🔄 Jugar otra vez";
+      nextPlayerBtn.className = "hg-btn play-again-btn";
+      nextPlayerBtn.disabled = false;
+
+      addShareButton(finalStreak);
+      clearSuggestions();
+    }
+  }
+
+  function addShareButton(streak) {
+    let existingShare = document.getElementById("share-score-btn");
+    if (existingShare) existingShare.remove();
+
+    const actionsDiv = document.querySelector(".hg-actions");
+    if (!actionsDiv) return;
+
+    const shareBtn = document.createElement("button");
+    shareBtn.id = "share-score-btn";
+    shareBtn.className = "hg-btn primary";
+    shareBtn.style.marginTop = "1.5rem";
+    shareBtn.style.marginLeft = "1rem";
+    shareBtn.innerHTML = `📤 Compartir Puntuación`;
+    
+    shareBtn.addEventListener("click", () => shareScore(streak));
+    actionsDiv.appendChild(shareBtn);
+  }
+
+  function shareScore(streak) {
+    const text = `🔥 ¡He conseguido una racha de ${streak} jugadores en HiddenGoal ⚽! ¿Puedes superarme?`;
+    if (navigator.share) { 
+      navigator.share({ 
+        title: "HiddenGoal", 
+        text: text, 
+        url: window.location.href 
+      }).catch(err => console.log("Share failed:", err)); 
+    } else { 
+      navigator.clipboard.writeText(text + " " + window.location.href); 
+      alert("¡Puntuación copiada al portapapeles! " + text); 
     }
   }
 
   function handleNextPlayer() {
+    const params = new URLSearchParams(window.location.search);
+    const newId = Math.floor(Math.random() * 1000000);
+    params.set("id", newId);
+    const newUrl = window.location.pathname + "?" + params.toString();
+    window.history.pushState({ id: newId }, "", newUrl);
     startNewRound();
   }
 
